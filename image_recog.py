@@ -3,8 +3,8 @@ import requests
 from requests.auth import HTTPBasicAuth
 import os
 
-API_KEY = 'acc_48659bc97bcced8'
-API_SECRET = '7254e6675935f22b878844edfb32ba3e'
+API_KEY = 'enter your API key'
+API_SECRET = 'enter your API secret'
 
 def download_image(url, filename='downloaded.jpg'):
     try:
